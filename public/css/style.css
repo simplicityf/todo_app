@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(247, 236, 217);
+    color: black;
+}
+
+h1 h2, p, div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
+.table-container{
+    border: .5px, solid, black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+table, th, td {
+    border: .5px, solid, black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+th {
+    height: 30px;
+}
+
+tr:hover {
+    background-color: cornsilk;
+    cursor: pointer;
+}
+
+tr:nth-child(2n) {
+    background-color: aliceblue;
+}
+
+td {
+    height: 100px;
+    width: auto;
+}
+
+.btn {
+    background-color: rgb(231, 148, 148);
+    border: .5px solid rgb(136, 112, 112);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 6px;
+}
+
+.text-left {
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 10%;
+}
+
+label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+input{
+    border: 1px solid brown;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: rgb(247, 229, 206);
+}
+
+.btn-danger{
+    background-color: red;
+    border: .5px solid rgb(136, 112, 112);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 6px;
+}
+
+textarea {
+    border: 1px solid brown;
+    border-radius: 6px;
+    background-color: rgb(247, 229, 206);
+}
